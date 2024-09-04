@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 430px) {
+    .profile-img {
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile-img {
+        border-radius: 50%;
+    }
+}

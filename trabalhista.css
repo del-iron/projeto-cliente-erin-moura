@@ -1,0 +1,179 @@
+/*VOCÊ GOSTARIA DE TER SUA
+CAUSA TRABALHISTA RESOLVIDA?*/
+.trabalhista{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.trabalhista-sec h3{
+    font-size: 1.80rem;
+    line-height: 1.80rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+/*VOCÊ GOSTARIA DE TER SUA
+CAUSA TRABALHISTA RESOLVIDA?*/
+.trab-text1{
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+}
+/*Você sabe que o seu medo de procurar 
+ajuda lhe fará perder muitos dos seus
+direitos?*/
+.trab-text2{
+    font-size: 0.8;
+    line-height: 1.18rem;
+    text-transform: uppercase;
+    margin-top:1.25rem;
+    padding: 22px;
+    
+}
+
+.btn-tra {
+    margin: 1rem;
+    background-color:#0F9341;
+    display: inline-block;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-tra a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: .3s ease;
+
+}
+
+.btn-tra:hover {
+    background-color: #1ca14f;
+}
+
+
+.trab-text3{
+    margin-top: 3.75rem;
+    font-weight: bold;
+    font-size: 1.43rem;
+    text-transform: uppercase;
+}
+
+.trab-text4{
+    margin-top: 1.25rem;
+}
+
+.seta{
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+/*responsive*/
+
+@media (max-width: 430px) {
+    .trabalhista {
+        margin-top: 50px; /* Reduzindo o espaço superior */
+    }
+
+    .trabalhista-sec h3 {
+        font-size: 1.5rem; /* Ajustando o tamanho da fonte */
+        line-height: 1.5rem; /* Ajustando a altura da linha */
+    }
+
+    .trab-text1 {
+        margin-top: 1rem; /* Ajustando o espaço superior */
+        font-size: 1rem;
+        padding: 30px;
+        text-align: center;
+        text-size-adjust: 100% ;
+         /* Ajustando o tamanho da fonte */
+    }
+
+    .trab-text2 {
+        font-size: 0.7rem; /* Ajustando o tamanho da fonte */
+        line-height: 1rem; /* Ajustando a altura da linha */
+        margin-top: 1rem; /* Ajustando o espaço superior */
+    }
+
+    .btn-tra {
+        padding: 0.8rem 2rem; /* Ajustando o padding */
+    }
+
+    .btn-tra a {
+        font-size: 1rem; /* Ajustando o tamanho da fonte */
+    }
+
+    .trab-text3 {
+        margin-top: 2rem; /* Reduzindo o espaço superior */
+        font-size: 1.2rem; /* Ajustando o tamanho da fonte */
+    }
+
+    .trab-text4 {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 30px;
+        text-align: center; /* Ajustando o espaço superior */
+        
+        
+
+    }
+
+    .seta {
+        margin-top: 50px; /* Reduzindo o espaço superior */
+    }
+}
+
+@media (max-width: 320px) {
+    .trabalhista {
+        margin-top: 20px; /* Reduzindo o espaço superior */
+    }
+
+    .trabalhista-sec h3 {
+        font-size: 1.2rem; /* Ajustando o tamanho da fonte */
+        line-height: 1.4rem; /* Ajustando a altura da linha */
+    }
+
+    .trab-text1 {
+        margin-top: 0.5rem; /* Ajustando o espaço superior */
+        font-size: 0.875rem; /* Aproximadamente 14px */
+        padding: 20px; /* Ajustando o padding */
+        text-align: center;
+        text-size-adjust: 100%; /* Ajustando o tamanho da fonte */
+    }
+
+    .trab-text2 {
+        font-size: 0.75rem; /* Aproximadamente 12px */
+        line-height: 1rem; /* Ajustando a altura da linha */
+        margin-top: 0.5rem; /* Ajustando o espaço superior */
+    }
+
+    .btn-tra {
+        padding: 0.5rem 1rem; /* Ajustando o padding */
+    }
+
+    .btn-tra a {
+        font-size: 0.875rem; /* Aproximadamente 14px */
+    }
+
+    .trab-text3 {
+        margin-top: 1rem; /* Reduzindo o espaço superior */
+        font-size: 1rem; /* Aproximadamente 16px */
+    }
+
+    .trab-text4 {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 20px; /* Ajustando o padding */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    .seta {
+        margin-top: 20px; /* Reduzindo o espaço superior */
+    }
+}

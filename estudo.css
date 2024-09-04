@@ -1,0 +1,116 @@
+
+/*QUADRO BRANCO - ADVOGADO QUE VAI LUTAR POR TODOS OS SEUS DIREITOS!*/
+.container-eri-adv {
+    
+    margin: 0px auto;
+    background-color: #EFEFED;
+    padding: 30px;
+    text-align: justify;
+    text-align: center;
+}
+/*O ADVOGADO QUE VAI LUTAR POR TODOS OS SEUS DIREITOS!*/
+.title-eri-direitos {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    
+    height: auto;
+       margin-bottom: 20px;
+}
+
+.info-eri-nome {
+    text-align: left;
+}
+/*ERIVALDO MOURA DE LIMAE*/
+.info-eri-nome h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    color: #333333;
+}
+
+/*ADVOGADA OAB/CE 19.330.. */
+.info-eri-nome p {
+   
+    font-size: 1,06rem;
+    text-align: center;
+    margin: 5px 0;
+    color: #666666;
+}
+
+.eri-atuacao{
+    font-size: 1.06rem;
+    
+   
+   
+}
+
+/* Media query for screens with a maximum width of 430px */
+@media (max-width: 430px) {
+    .container-eri-adv {
+        padding: 10px;
+    }
+
+    .info-eri-nome h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .info-eri-nome p {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .eri-atuacao {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .profile-img {
+        max-width: 150px;
+    }
+
+    .contact-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .title-eri-direitos{
+        padding: 30px;
+    }
+}
+
+
+/* Media query for screens with a maximum width of 320px */
+@media (max-width: 320px) {
+    .emprego-inf {
+        margin-top: 10px; /* Reduzindo o espaço superior */
+        font-size: 0.875rem; /* Aproximadamente 14px */
+        padding: 10px; /* Mantendo o padding */
+    }
+
+    .recisao-inf {
+        margin-top: 5px; /* Ajustando o espaço superior */
+        text-align: center;
+    }
+
+    .emprego-sym {
+        margin-top: 5px; /* Ajustando o espaço superior */
+        margin-bottom: 10px; /* Ajustando os espaçamentos */
+    }
+
+    .emprego-star {
+        margin-top: 5px; /* Ajustando o espaço superior */
+    }
+
+    .emprego a {
+        margin-bottom: 20px; /* Reduzindo o espaço inferior */
+    }
+}

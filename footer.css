@@ -1,0 +1,165 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.25rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.left-section {
+    text-align: start;
+    margin-top: 4.8rem;
+}
+
+/*ontato*/
+
+.contact-info {
+    text-align: start;
+    margin-top: 0.62rem;
+}
+
+.contact-info span {
+    font-weight: 200;
+    margin-bottom: 0.62rem;
+
+}
+
+/*siga-nos*/
+
+.middle-section {
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+.middle-section a {
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.middle-section i {
+    padding: 20px;
+    margin-top: 10px;
+    background-color:#0F9341;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*atendimento*/
+
+.right-section {
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+.btn-atendimento {
+    font-family: 'montserrat';
+    display: inline-block;
+    background-color: #0F9341;
+    color: #e9e9e9;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.93rem;
+    line-height: 0.93rem;
+    transition: 0.4s ease-in-out;
+}
+
+
+.btn-atendimento:hover{
+    color: #fff;
+    background-color: #1ca14f;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    
+
+}
+
+
+
+
+
+/*direitos reservados*/
+.footer-bottom p{
+    background-color:  #3331;
+    padding: 20px 20px 20px;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    
+    
+}
+
+
+/*responsivo*/
+
+@media (max-width: 430px) {
+    footer {
+        grid-template-columns: 1fr; /* Colunas em uma única coluna */
+    }
+
+    .left-section,
+    .middle-section,
+    .right-section {
+        margin-top: 2rem; /* Reduzindo o espaço superior */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    .middle-section i {
+        padding: 10px; /* Reduzindo o padding */
+        margin-top: 5px; /* Reduzindo o espaço superior */
+    }
+
+    .btn-atendimento {
+        text-align: center;
+        padding: 0.8rem 2rem; /* Ajustando o padding */
+        font-size: 0.8rem; /* Ajustando o tamanho da fonte */
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        margin-top: 40px; /* Reduzindo o espaço superior */
+        padding: 10px; /* Reduzindo o padding */
+    }
+    .contact-info{
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        grid-template-columns: 1fr; /* Colunas em uma única coluna */
+    }
+
+    .left-section,
+    .middle-section,
+    .right-section {
+        margin-top: 1rem; /* Reduzindo o espaço superior */
+        text-align: center; /* Centralizando o texto */
+    }
+
+    .middle-section i {
+        padding: 5px; /* Reduzindo o padding */
+        margin-top: 5px; /* Mantendo o espaço superior */
+    }
+
+    .btn-atendimento {
+        text-align: center;
+        padding: 0.5rem 1rem; /* Ajustando o padding */
+        font-size: 0.75rem; /* Aproximadamente 12px */
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        margin-top: 20px; /* Reduzindo o espaço superior */
+        padding: 5px; /* Reduzindo o padding */
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+}

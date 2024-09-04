@@ -1,0 +1,112 @@
+
+/*QUER SAIR DO SEU EMPREGO ATUAL
+RECEBENDO TODOS OS SEUS DIREITOS?*/
+.emprego{
+    margin-top: 0 auto;
+    background-color: #c8beb6;
+    display: grid;
+    justify-items: center;   
+}
+
+.emprego-inf{
+    margin-top: 126px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.46rem;
+}
+
+.emprego-inf2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.46rem;
+}
+
+.recisao-inf3{
+    text-align: justify;
+    text-align: center ;
+    margin-top: 6px;
+    white-space: pre-wrap;
+}
+
+.emprego-sym{
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.emprego-star{
+    margin-top: 5px;
+}
+
+.emprego a{
+    margin-bottom: 200px;
+}
+
+/* Media Query para telas de até 430px */
+@media (max-width: 430px) {
+    .emprego-inf {
+        
+        margin-top: 20px; /* Reduzindo o espaço superior */
+        font-size: 1rem; /* Ajustando o tamanho da fonte */
+        padding: 10px;
+        
+    }
+    .emprego-inf2{
+        font-size: 1rem;
+    }
+
+  .recisao-inf3 {
+  text-align: justify;
+  text-align: center;
+  margin-top: 6px;
+  white-space: normal;
+  line-height: 1.6; /* Ajuste da altura da linha para melhor legibilidade */
+  hyphens: auto; /* Adiciona hifenização automática para melhor quebra de linhas */
+  padding: 30px; /* Adiciona padding para espaçamento interno */
+}
+
+    .emprego-sym {
+        margin-top: 10px;
+        margin-bottom: 20px; /* Ajustando os espaçamentos */
+    }
+
+    .emprego-star {
+        margin-top: 10px; /* Ajustando o espaço superior */
+    }
+
+    .emprego a {
+        margin-bottom: 50px; /* Reduzindo o espaço inferior */
+    }
+
+   
+
+  
+}
+
+@media (max-width: 320px) {
+    .emprego-inf {
+        margin-top: 10px; /* Reduzindo o espaço superior */
+        font-size: 0.875rem; /* Aproximadamente 14px */
+        padding: 10px; /* Mantendo o padding */
+    }
+
+    .recisao-inf3 {
+        margin-top: 5px; /* Ajustando o espaço superior */
+        text-align: center;
+       
+
+    }
+
+    .emprego-sym {
+        margin-top: 5px; /* Ajustando o espaço superior */
+        margin-bottom: 10px; /* Ajustando os espaçamentos */
+    }
+
+    .emprego-star {
+        margin-top: 5px; /* Ajustando o espaço superior */
+    }
+
+    .emprego a {
+        margin-bottom: 20px; /* Reduzindo o espaço inferior */
+    }
+}
+

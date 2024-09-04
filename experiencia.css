@@ -1,0 +1,106 @@
+
+/*3ª quadro com os checks*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #c0bdbd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/*Trabalho sem carteira assinada;
+ Pedido de demissão forçado; 
+ Revisão sem justa causa;*/
+.column {
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  background-color: #c0bdbd;
+  margin-bottom: 30px;
+  padding:40px 0;
+}
+
+.column ul{
+  list-style: none ;
+  min-width: 400px;
+  
+  
+}
+
+.column ul li{
+  font-size: 1rem;
+  margin-bottom: 5px;
+  word-spacing: 1px;
+  line-height: 26.4px;
+  
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: #0F9341;
+  color: #ffffff;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+
+/*responsive*/
+
+/* Media Query para telas de até 430px */
+@media (max-width: 430px) {
+  .column {
+    flex-direction: column; /* Alterando a direção para coluna */
+    align-items: center; /* Centralizando os itens */
+    padding: 20px 0; /* Ajustando o padding */
+  }
+
+  .column ul {
+    min-width: auto; /* Removendo a largura mínima fixa */
+    width: 100%; /* Ajustando a largura para 100% */
+    padding: 0; /* Removendo o padding */
+  }
+
+  .column ul li {
+    font-size: 0.875rem; /* Ajustando o tamanho da fonte */
+    line-height: 22px; /* Ajustando a altura da linha */
+  }
+
+  .button {
+    padding: 0.8rem 2rem; /* Ajustando o padding */
+    margin: 0.5rem; /* Ajustando a margem */
+    font-size: 0.875rem; /* Ajustando o tamanho da fonte */
+  }
+}
+
+@media (max-width: 320px) {
+  .column {
+    flex-direction: column; /* Alterando a direção para coluna */
+    align-items: center; /* Centralizando os itens */
+    padding: 10px 0; /* Ajustando o padding */
+  }
+
+  .column ul {
+    min-width: auto; /* Removendo a largura mínima fixa */
+    width: 100%; /* Ajustando a largura para 100% */
+    padding: 0; /* Removendo o padding */
+  }
+
+  .column ul li {
+    font-size: 0.75rem; /* Aproximadamente 12px */
+    line-height: 20px; /* Ajustando a altura da linha */
+  }
+
+  .button {
+    padding: 0.5rem 1rem; /* Ajustando o padding */
+    margin: 0.3rem; /* Ajustando a margem */
+    font-size: 0.75rem; /* Aproximadamente 12px */
+  }
+}
